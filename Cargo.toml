@@ -7,3 +7,6 @@ edition = "2021"
 avian3d = "0.1.2"
 bevy = "0.15.0"
 bevy-inspector-egui = "0.28.0"
+
+[workspace]
+resolver = "2"
