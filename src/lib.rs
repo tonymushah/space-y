@@ -56,6 +56,7 @@ fn setup(
 pub fn run() {
     App::new()
         .add_plugins(DefaultPlugins)
+        .add_plugins(bevy_inspector_egui::quick::WorldInspectorPlugin::new())
         .add_systems(Startup, setup)
         .run();
 }
